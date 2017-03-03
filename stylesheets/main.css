@@ -10,3 +10,31 @@ body{
     background: linear-gradient(bottom right,rgba(13,195,184,1),rgba(13,186,286,1)); /* Standard syntax (must be last) */
     height: 100%;
 }
+
+.intro-name{
+	padding: 15%;
+	overflow: auto;
+}
+
+#myname{
+	color: white;
+	font-family: 'Sacramento', cursive;
+	font-size: 35px;
+}
+
+#myphoto{
+	width: 150px;
+	border-radius: 75px;
+	float: right;
+}
+
+#photo {
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+#name{
+	width: 50%;
+	display: inline-block;
+}
