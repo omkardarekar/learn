@@ -1,5 +1,5 @@
 body{
-  margin: 0px;
+	margin: 0px;
 }
 
 .row{
@@ -12,11 +12,11 @@ body{
 
 
 .intro-name{
-  padding: 10%;
-  padding-bottom: 0px;
-  text-align: center;
-  background: #26D0CE; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(bottom right,#26D0CE, #1A2980); /* For Safari 5.1 to 6.0 */
+	padding: 10%;
+	padding-bottom: 0px;
+	text-align: center;
+	background: #26D0CE; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(bottom right,#26D0CE, #1A2980); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right,#26D0CE, #1A2980); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right,#26D0CE, #1A2980); /* For Firefox 3.6 to 15 */
   background: linear-gradient(bottom right,,#26D0CE, #1A2980); /* Standard syntax (must be last) */
@@ -24,20 +24,20 @@ body{
 }
 
 .name{
-  line-height: 150px;
+	line-height: 150px;
   height: 150px;
 }
 
 #myname{
-  color: white;
-  font-family: 'Sacramento', cursive;
-  font-size: 50px;
+	color: white;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
 }
 
 #myphoto{
-  width: 150px;
-  border-radius: 75px;
-  float: center;
+	width: 150px;
+	border-radius: 75px;
+	float: center;
 }
 
 .pulse {
@@ -45,6 +45,7 @@ body{
   box-shadow: 0 0 0 rgba(255,255,255, 0.5);
   animation: pulse 1.5s infinite;
 }
+
 .pulse:hover {
   animation: none;
 }
@@ -76,22 +77,22 @@ body{
 }
 
 .intro-desc{
-  padding: 5%;
-  margin-top: 30px;
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  font-family: 'Satisfy', cursive;
-  color: white;
-  /*background: #12FFF7; /* For browsers that do not support gradients */
-  /*background: -webkit-linear-gradient(bottom right,#12FFF7, #B3FFAB); /* For Safari 5.1 to 6.0 */
+	padding: 5%;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	font-family: 'Satisfy', cursive;
+	color: white;
+	/*background: #12FFF7; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(bottom right,#12FFF7, #B3FFAB); /* For Safari 5.1 to 6.0 */
   /*background: -o-linear-gradient(bottom right,#12FFF7, #B3FFAB); /* For Opera 11.1 to 12.0 */
   /*background: -moz-linear-gradient(bottom right,#12FFF7, #B3FFAB); /* For Firefox 3.6 to 15 */
   /*background: linear-gradient(bottom right,,#12FFF7, #B3FFAB); /* Standard syntax (must be last) */
 }
 
 .left{
-  text-align: left;
+	text-align: left;
 }
 
 .center{
@@ -104,7 +105,7 @@ body{
 }
 
 .parallax { 
-    background : linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/skill.jpg) no-repeat center;
+    background : linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/network.jpg) no-repeat center;
     height: auto;
     background-attachment: fixed !important;
     background-size: cover;
@@ -154,11 +155,11 @@ body{
 .contact{
   padding: 5%;
   color: white;
-  background: #FC354C; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(bottom right,#0ABFBC, #FC354C); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right,#0ABFBC, #FC354C); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right,#0ABFBC, #FC354C); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(bottom right,,#0ABFBC, #FC354C); /* Standard syntax (must be last) */
+  background: #ff4b1f; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(bottom right,#1fddff, #ff4b1f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right,#1fddff, #ff4b1f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right,#1fddff, #ff4b1f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(bottom right,,#1fddff, #ff4b1f); /* Standard syntax (must be last) */
 }
 
 .connect{
@@ -197,17 +198,29 @@ body{
     .blogs{
       margin-bottom: 10px;
     }
+
+    .blogs > a{
+      border: 2px solid rgb(34,102,183);
+      background-color: rgb(34,102,183);
+      color: white !important;
+    }
+
     .stack{
       padding: 5%;
+    }
+
+    .intro-name{
+      padding: 5%;
+    }
+
+    .parallax{
+      background-attachment: scroll;
+      height: auto;
     }
 
 }
 
 @media only screen and (max-width: 400px) {
-    .connect{
-      padding-top: 0px;
-    }
-
     .info-personal > p {
         font-size: 15px;
     }
